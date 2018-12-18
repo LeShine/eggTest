@@ -12,21 +12,6 @@ class NewsService extends Service {
                 { id: 2, title: 'this is news 2', url: '/news/2' }
             ]
         }
-        // const { data: idList } = await this.ctx.curl(`${serverUrl}/topstories.json`, {
-        //     data: {
-        //         orderBy: '"$key"',
-        //         startAt: `"${pageSize * (page - 1)}"`,
-        //         endAt: `"${pageSize * page - 1}"`,
-        //     },
-        //     dataType: 'json',
-        // })
-
-        // const newsList = await Promise.all(
-        //     Object.keys(idList).map(key => {
-        //         const url = `${serverUrl}/item/${idList[key]}.json`;
-        //         return this.ctx.curl(url, { dataType: 'json' });
-        //     })
-        // )newsList.map(res => res.data);
 
         return newsList
     }
