@@ -5,7 +5,7 @@
  * 小创
  * https://yq.veilytech.com/home
  * https://yqtest2.veilytech.com/home
- * 13555555555  88888888
+ * 13555555558
  * what we have now is only tip of the iceberg
  */
 module.exports = appInfo => {
